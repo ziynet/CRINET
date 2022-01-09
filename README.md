@@ -4,8 +4,10 @@ CRINET: A computational tool to infer genome-wide competing endogenous RNA (ceRN
 To learn more about Crinet, read our paper at: https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0251399
 
 ## Description of files
-- **crinet.R**: The script that runs Crinet with default hyperparameters and sample dataset with 10 cores.  
-  - To change the datasets, modify line 5. To change the hyperparameters, modify line 11.
+- **crinet.R**: The script that runs Crinet on sample dataset with 10 cores.  
+  - To use your own datasets, comment **line 5** and load your own data.  
+  - To change the hyperparameters, use **line 11** instead of **line 13** (or modify by yourself).  
+  - Update number of core (the variable ```core.no```) on **line 8** accordingly.
   
 - **CRINET_sample.rda**: Supplemental file including sample datasets used in Crinet.  
 - **crinet.functions.R**: Supplemental file including function declarations used by Crinet  
