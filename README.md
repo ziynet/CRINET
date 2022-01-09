@@ -7,7 +7,7 @@ To learn more about Crinet, read our paper at: https://journals.plos.org/plosone
 - **crinet.R**  
 The script that runs Crinet with default hyperparameters and sample dataset with 10 cores.
   
-To change the datasets, modify line 5. To change the hyperparameters, modify line 11.
+     To change the datasets, modify line 5. To change the hyperparameters, modify line 11.
   
 - **CRINET_sample.rda**  
 Supplemental file including sample datasets used in Crinet.
