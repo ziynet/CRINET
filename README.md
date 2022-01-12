@@ -13,6 +13,6 @@ To learn more about Crinet, read our paper at: https://journals.plos.org/plosone
   - To convert sample-specific hyperparameters to the default one, use **line 11** instead of **line 13** (or modify hyperparameters by yourself).  
   - Update number of core (the variable ```core.no```) on **line 8** accordingly.
   
-- **CRINET_sample.rda**: Supplemental file including sample datasets used in Crinet.  
+- **crinet_sample.rda**: Supplemental file including sample datasets used in Crinet.  
 - **crinet.functions.R**: Supplemental file including function declarations used by Crinet  
 
