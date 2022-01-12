@@ -2,7 +2,7 @@
 source("crinet.functions.R")
 
 # load sample data
-load("CRINET_sample.rda")
+load("crinet_sample.rda")
 
 # Specify the core no to use in parallel processing
 core.no = 10
